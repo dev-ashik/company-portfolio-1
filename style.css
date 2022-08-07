@@ -6,9 +6,10 @@
 
 /* Navigation */
 #nav-bar {
-    position: static;
+    position: fixed;
     top: 0;
     z-index: 10;
+    width: 100%;
 }
 
 .navbar-brand img {
@@ -468,4 +469,16 @@ blockquote::after {
     margin: 10px;
     color: #007bff;
     font-weight: bold;
+}
+
+/* footer */
+#footer {
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+
+.fa-heart-o {
+    margin: 3px;
+    color: red;
 }
